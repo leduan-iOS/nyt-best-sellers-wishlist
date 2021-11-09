@@ -105,6 +105,22 @@ Model: User
 
 - List details screen
   - (Create/POST) Create a new book object
+
+```swift
+let book = PFObject(className:"Book")
+book["title"] = 
+book["author"] = 
+book["description"] = 
+book["amazon_link"] = 
+book["img_link"] = 
+book.saveInBackground { (succeeded, error)  in
+    if (succeeded) {
+        // The object has been saved.
+    } else {
+        // There was a problem, check error.description
+    }
+}
+```
  
 - Wishlist screen
   - (Read/GET) Query for all book objects
