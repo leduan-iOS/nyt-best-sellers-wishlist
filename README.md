@@ -85,25 +85,17 @@ Model: Book
 
 |Property|Type|Description
 |objectId|String|unique id for the wishlist book (default field)
-|--------|------|----
 |title|String|string containing book title
-|--------|------|----
 |author|String|string containing author of the book
-|--------|------|----
 |description|String|string containing short description of the book
-|--------|------|----
 |amazon_link|String|string containing the link to Amazon to buy book
-|--------|------|----
 |img_link|String|string containing link to image
 
 Model: User
 
 |Property|Type|Description
-|--------|----|---
 |objectId|String|unique id for the user (default field)
-|--------|------|----
 |username|String|string containing username (unique)
-|--------|------|----
 |password|String|string containing the user password
 
 ### Networking
