@@ -101,6 +101,18 @@ Model: User
 |password|String|string containing the user password
 
 ### Networking
-- [Add list of network requests by screen ]
+
+#### List of network requests by screen
+
+- Login screen
+
+
+- List details screen
+
+
+- Book details screen
+
+
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
