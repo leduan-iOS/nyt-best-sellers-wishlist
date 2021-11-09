@@ -126,7 +126,7 @@ Model: User
 |HTTP Verb|Endpoint|Description
 |---|---|---
 |GET|/lists/names.json|The lists/names service returns a list of all the NYT Best Sellers Lists.
-|GET|/lists/current/{list}.json/|Get latest/current Best Sellers list.
+|GET|/lists/current/{list}.json|Get latest/current Best Sellers list.
 
 
 
