@@ -79,16 +79,34 @@ This app allows a user to browse through multiple lists of New York Times' best-
 
 ## Schema 
 
+### Models
+
 Model: Book
 
 |Property|Type|Description
 |--------|----|---
-|objectId|String|unique id for the user post (default field)
+|objectId|String|unique id for the wishlist book (default field)
 |--------|------|----
+|title|String|string containing book title
+|--------|------|----
+|author|String|string containing author of the book
+|--------|------|----
+|description|String|string containing short description of the book
+|--------|------|----
+|amazon_link|String|string containing the link to Amazon to buy book
+|--------|------|----
+|img_link|String|string containing link to image
 
+Model: User
 
-### Models
-[Add table of models]
+|Property|Type|Description
+|--------|----|---
+|objectId|String|unique id for the user (default field)
+|--------|------|----
+|username|String|string containing username (unique)
+|--------|------|----
+|password|String|string containing the user password
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
