@@ -116,14 +116,14 @@ user.saveInBackground { (succeeded, error)  in
   - (Read/GET) Query logged in user object for login validation
 ```swift
 let query = PFQuery(className:"User")
-query.whereKey("username", containedIn: credentials)
+query.whereKey("username", equalTo: username)
 query.findObjectsInBackground { (objects: [PFObject]?, error: Error?) in
     if let error = error {
         // Log details of the failure
         print(error.localizedDescription)
     } else if let objects = objects {
         // The find succeeded.
-        print("Successfully retrieved \(objects.count) credentials.")
+        print("Successfully retrieved \(objects.count) username.")
         // Do something with the found objects
         for object in objects {
             print(object.objectId as Any)
@@ -152,9 +152,39 @@ book.saveInBackground { (succeeded, error)  in
  
 - Wishlist screen
   - (Read/GET) Query for all book objects
-
+```swift
+let query = PFQuery(className:"Book")
+query.findObjectsInBackground { (objects: [PFObject]?, error: Error?) in
+    if let error = error {
+        // Log details of the failure
+        print(error.localizedDescription)
+    } else if let objects = objects {
+        // The find succeeded.
+        print("Successfully retrieved \(objects.count) username.")
+        // Do something with the found objects
+        for object in objects {
+            print(object.objectId as Any)
+        }
+    }
+}
+```
 - Book details screen
   - (Delete) Delete book object 
+```swift
+let query = PFQuery(className:"Book")
+query.whereKey("title", equalTo: title)
+query.findObjectsInBackground { (objects: [PFObject]?, error: Error?) in
+    if let error = error {
+        // Log details of the failure
+        print(error.localizedDescription)
+    } else if let objects = objects {
+        // The find succeeded.
+        print("Successfully retrieved \(objects.count) username.")
+        // Do something with the found objects
+        object!.deleteInBackground()
+    }
+}
+```
  
 ### Existing API Endpoints
 
