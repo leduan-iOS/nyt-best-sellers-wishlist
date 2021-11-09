@@ -117,7 +117,18 @@ Model: User
 - Book details screen
   - (Delete) Delete book object 
  
+### Existing API Endpoints
+
+#### NYT Books API
+
+- Base URL - https://api.nytimes.com/svc/books/v3
+
+|HTTP Verb|Endpoint|Description
+|---|---|---
+|GET|/lists/names.json|The lists/names service returns a list of all the NYT Best Sellers Lists.
+|GET|/lists/current/{list}.json/|Get latest/current Best Sellers list.
 
 
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+
+
