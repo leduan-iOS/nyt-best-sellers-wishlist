@@ -101,18 +101,46 @@ Model: User
 
 - Login screen
   - (Create/POST) Create new user credentials
+```swift
+let user = PFObject(className:"User")
+user["username"] = username
+user["password"] = password
+user.saveInBackground { (succeeded, error)  in
+    if (succeeded) {
+        // The object has been saved.
+    } else {
+        // There was a problem, check error.description
+    }
+}
+```
   - (Read/GET) Query logged in user object for login validation
-
+```swift
+let query = PFQuery(className:"User")
+query.whereKey("username", containedIn: credentials)
+query.findObjectsInBackground { (objects: [PFObject]?, error: Error?) in
+    if let error = error {
+        // Log details of the failure
+        print(error.localizedDescription)
+    } else if let objects = objects {
+        // The find succeeded.
+        print("Successfully retrieved \(objects.count) credentials.")
+        // Do something with the found objects
+        for object in objects {
+            print(object.objectId as Any)
+        }
+    }
+}
+```
 - List details screen
   - (Create/POST) Create a new book object
 
 ```swift
 let book = PFObject(className:"Book")
-book["title"] = 
-book["author"] = 
-book["description"] = 
-book["amazon_link"] = 
-book["img_link"] = 
+book["title"] = title
+book["author"] = author
+book["description"] = description
+book["amazon_link"] = amazon_link
+book["img_link"] = img_link
 book.saveInBackground { (succeeded, error)  in
     if (succeeded) {
         // The object has been saved.
