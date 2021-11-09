@@ -160,7 +160,7 @@ query.findObjectsInBackground { (objects: [PFObject]?, error: Error?) in
         print(error.localizedDescription)
     } else if let objects = objects {
         // The find succeeded.
-        print("Successfully retrieved \(objects.count) username.")
+        print("Successfully retrieved \(objects.count) books.")
         // Do something with the found objects
         for object in objects {
             print(object.objectId as Any)
@@ -179,7 +179,7 @@ query.findObjectsInBackground { (objects: [PFObject]?, error: Error?) in
         print(error.localizedDescription)
     } else if let objects = objects {
         // The find succeeded.
-        print("Successfully retrieved \(objects.count) username.")
+        print("Successfully retrieved \(objects.count) book.")
         // Do something with the found objects
         object!.deleteInBackground()
     }
