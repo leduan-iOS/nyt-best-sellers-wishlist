@@ -95,6 +95,7 @@ Model: Book
 Model: User
 
 |Property|Type|Description
+|---|---|---
 |objectId|String|unique id for the user (default field)
 |username|String|string containing username (unique)
 |password|String|string containing the user password
