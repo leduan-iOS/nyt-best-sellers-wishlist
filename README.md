@@ -105,13 +105,18 @@ Model: User
 #### List of network requests by screen
 
 - Login screen
-
+  - (Create/POST) Create new user credentials
+  - (Read/GET) Query logged in user object for login validation
 
 - List details screen
-
+  - (Create/POST) Create a new book object
+ 
+- Wishlist screen
+  - (Read/GET) Query for all book objects
 
 - Book details screen
-
+  - (Delete) Delete book object 
+ 
 
 
 - [Create basic snippets for each Parse network request]
