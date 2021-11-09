@@ -72,11 +72,6 @@ This app allows a user to browse through multiple lists of New York Times' best-
 
 ![wireframes](https://user-images.githubusercontent.com/63036048/140606769-d7ad1240-17e1-42e6-acb3-01773d233d18.png)
 
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
-
 ## Schema 
 
 ### Models
@@ -128,7 +123,7 @@ Model: User
 |GET|/lists/names.json|The lists/names service returns a list of all the NYT Best Sellers Lists.
 |GET|/lists/current/{list}.json|Get latest/current Best Sellers list.
 
-
+  
 
 
 
