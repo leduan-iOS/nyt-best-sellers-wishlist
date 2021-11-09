@@ -1,6 +1,3 @@
-Original App Design Project - README
-===
-
 # New York Times Best-Sellers WishList
 
 ## Table of Contents
@@ -14,7 +11,7 @@ Original App Design Project - README
 This app allows a user to browse through multiple lists of New York Times' best-sellers that are updated weekly and monthly. The user can look up all the available lists and add any book from the lists to a wishlist if they are considering buying the book in the future.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
+
 - **Category:** Entertainment / Education / Reading
 - **Mobile:** No current features make the app unique to mobile.
 - **Story:** Allows the user to select multiple book lists of best-sellers. Displays list info like last time it was updated, list name, and frequency of update (weekly or monthly). Displays the books in the list ranked, and with information such as title, author, description, amazon link, and book image. And allows user to add the list item (book) to a WishList for future reference. The wishList is interactive and allows a user to remove items (books) from it.
@@ -81,7 +78,15 @@ This app allows a user to browse through multiple lists of New York Times' best-
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
+Model: Book
+
+|Property|Type|Description
+|--------|----|---
+|objectId|String|unique id for the user post (default field)
+|--------|------|----
+
+
 ### Models
 [Add table of models]
 ### Networking
