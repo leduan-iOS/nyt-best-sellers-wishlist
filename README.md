@@ -84,7 +84,6 @@ This app allows a user to browse through multiple lists of New York Times' best-
 Model: Book
 
 |Property|Type|Description
-|--------|----|---
 |objectId|String|unique id for the wishlist book (default field)
 |--------|------|----
 |title|String|string containing book title
