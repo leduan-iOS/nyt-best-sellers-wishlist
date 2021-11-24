@@ -1,5 +1,10 @@
 # New York Times Best-Sellers WishList
 
+## Build Progress
+
+![Sprint_1_and_2](https://user-images.githubusercontent.com/63036048/143211814-d27c4343-05b2-4d5d-afd5-73c44c2aa5e5.gif)
+
+
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
