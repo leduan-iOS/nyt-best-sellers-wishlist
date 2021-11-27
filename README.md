@@ -1,5 +1,18 @@
 # New York Times Best-Sellers WishList
 
+### 1. User Stories (Required and Optional)
+
+**Required Must-have Stories**
+
+* user can log in
+* user can sign up and create an account
+* user can select a list of best-sellers from a variety of options
+* user can see the list details and the list items details
+* user can add a list item (book) to a WishList
+* user can see/access the WishList
+* user can select Wishlist item to display its contents
+* user can remove Wishlist items
+
 ## Build Progress
 
 ![Sprint_1_and_2](https://user-images.githubusercontent.com/63036048/143211814-d27c4343-05b2-4d5d-afd5-73c44c2aa5e5.gif)
