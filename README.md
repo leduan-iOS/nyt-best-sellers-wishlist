@@ -1,6 +1,6 @@
 # New York Times Best-Sellers WishList
 
-### User Stories (Required and Optional)
+### User Stories (Required)
 
 **Required Must-have Stories**
 
