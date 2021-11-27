@@ -15,7 +15,20 @@
 
 ## Build Progress
 
+[x] user can log in
+[x] user can sign up and create an account
+
+
+
+[x] user can select a list of best-sellers from a variety of options
+[x] user can see the list details and the list items details
+
 ![Sprint_1_and_2](https://user-images.githubusercontent.com/63036048/143211814-d27c4343-05b2-4d5d-afd5-73c44c2aa5e5.gif)
+
+[x] user can add a list item (book) to a WishList
+[x] user can see/access the WishList
+[x] user can select Wishlist item to display its contents
+[x] user can remove Wishlist items
 
 
 ## Table of Contents
