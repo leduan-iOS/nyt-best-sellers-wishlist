@@ -6,6 +6,8 @@
 
 * user can log in
 * user can sign up and create an account
+* user can log out
+* login screen validation
 * user can select a list of best-sellers from a variety of options
 * user can see the list details and the list items details
 * user can add a list item (book) to a WishList
@@ -13,10 +15,13 @@
 * user can select Wishlist item to display its contents
 * user can remove Wishlist items
 
+
 ## Build Progress
 
 - [x] user can log in
 - [x] user can sign up and create an account
+- [x] user can log out
+- [x] login screen validation
 
 
 
