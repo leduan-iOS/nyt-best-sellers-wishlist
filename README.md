@@ -21,6 +21,9 @@
 - [x] user can log in
 - [x] user can sign up and create an account
 - [x] user can log out
+
+![1st](https://user-images.githubusercontent.com/63036048/143735341-cb882a71-cf4b-4759-84fd-5f6a14fe91d1.gif)
+
 - [x] login screen validation
 
 
