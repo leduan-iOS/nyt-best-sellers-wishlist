@@ -10,6 +10,7 @@
 * login screen validation
 * user can select a list of best-sellers from a variety of options
 * user can see the list details and the list items details
+* user can click on Amazon link to check the product
 * user can add a list item (book) to a WishList
 * user can see/access the WishList
 * user can select Wishlist item to display its contents
@@ -26,10 +27,12 @@
 
 - [x] login screen validation
 
+![2nd](https://user-images.githubusercontent.com/63036048/143735436-fcfbda47-a8f2-4c86-bc29-0446a0af8524.gif)
 
 
 - [x] user can select a list of best-sellers from a variety of options
 - [x] user can see the list details and the list items details
+- [x] user can click on Amazon link to check the product
 
 ![Sprint_1_and_2](https://user-images.githubusercontent.com/63036048/143211814-d27c4343-05b2-4d5d-afd5-73c44c2aa5e5.gif)
 
