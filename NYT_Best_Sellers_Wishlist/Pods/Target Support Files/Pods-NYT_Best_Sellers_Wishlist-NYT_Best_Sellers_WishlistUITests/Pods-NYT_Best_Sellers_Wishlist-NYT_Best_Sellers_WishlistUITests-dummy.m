@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_NYT_Best_Sellers_Wishlist_NYT_Best_Sellers_WishlistUITests : NSObject
+@end
+@implementation PodsDummy_Pods_NYT_Best_Sellers_Wishlist_NYT_Best_Sellers_WishlistUITests
+@end
