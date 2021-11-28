@@ -1,55 +1,5 @@
 # New York Times Best-Sellers WishList
 
-### User Stories (Required)
-
-**Required Must-have Stories**
-
-* user can log in
-* user can sign up and create an account
-* user can log out
-* login screen validation
-* user can select a list of best-sellers from a variety of options
-* user can see the list details and the list items details
-* user can click on Amazon link to check the product
-* user can add a list item (book) to a WishList
-* user can see/access the WishList
-* user can select Wishlist item to display its contents
-* user can remove Wishlist items
-
-
-## Build Progress
-
-- [x] user can log in
-- [x] user can sign up and create an account
-- [x] user can log out
-
-![1st](https://user-images.githubusercontent.com/63036048/143735341-cb882a71-cf4b-4759-84fd-5f6a14fe91d1.gif)
-
-- [x] login screen validation
-
-![2nd](https://user-images.githubusercontent.com/63036048/143735436-fcfbda47-a8f2-4c86-bc29-0446a0af8524.gif)
-
-
-- [x] user can select a list of best-sellers from a variety of options
-- [x] user can see the list details and the list items details
-- [x] user can click on Amazon link to check the product
-
-![3rd](https://user-images.githubusercontent.com/63036048/143735643-21e7e43f-bdc6-474b-978e-9a4cc2279bd1.gif)
-
-
-- [x] user can add a list item (book) to a WishList
-- [x] user can see/access the WishList
-
-![4th](https://user-images.githubusercontent.com/63036048/143735800-89e3746a-28f4-47aa-9714-7d6772a19131.gif)
-
-
-- [x] user can select Wishlist item to display its contents
-- [x] user can remove Wishlist items
-
-
-![5th](https://user-images.githubusercontent.com/63036048/143736001-8268432f-9fbd-4d81-b91e-0949e3462a29.gif)
-
-
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
