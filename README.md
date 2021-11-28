@@ -34,7 +34,8 @@
 - [x] user can see the list details and the list items details
 - [x] user can click on Amazon link to check the product
 
-![Sprint_1_and_2](https://user-images.githubusercontent.com/63036048/143211814-d27c4343-05b2-4d5d-afd5-73c44c2aa5e5.gif)
+![3rd](https://user-images.githubusercontent.com/63036048/143735643-21e7e43f-bdc6-474b-978e-9a4cc2279bd1.gif)
+
 
 - [x] user can add a list item (book) to a WishList
 - [x] user can see/access the WishList
