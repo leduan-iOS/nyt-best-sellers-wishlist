@@ -39,8 +39,15 @@
 
 - [x] user can add a list item (book) to a WishList
 - [x] user can see/access the WishList
+
+![4th](https://user-images.githubusercontent.com/63036048/143735800-89e3746a-28f4-47aa-9714-7d6772a19131.gif)
+
+
 - [x] user can select Wishlist item to display its contents
 - [x] user can remove Wishlist items
+
+
+![5th](https://user-images.githubusercontent.com/63036048/143736001-8268432f-9fbd-4d81-b91e-0949e3462a29.gif)
 
 
 ## Table of Contents
